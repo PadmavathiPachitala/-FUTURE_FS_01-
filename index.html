@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="[Your Name] – Full Stack Web Developer specializing in React, Node.js, and MongoDB. Available for internships and opportunities." />
+  <meta name="keywords" content="full stack developer, web developer, React, Node.js, MongoDB, portfolio, JavaScript" />
+  <meta name="author" content="[Your Name]" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="[Your Name] | Full Stack Developer" />
+  <meta property="og:description" content="Full Stack Developer – React · Node.js · MongoDB. Open to opportunities." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourusername.github.io/FUTURE_FS_01/" />
+  <link rel="canonical" href="https://yourusername.github.io/FUTURE_FS_01/" />
+  <title>[Your Name] | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ══════════════════════ NAVIGATION ══════════════════════ -->
+<nav id="nav" role="navigation" aria-label="Main navigation">
+  <a class="nav-logo" href="#hero" aria-label="Go to top">YN<em>.</em>dev</a>
+  <ul class="nav-links" id="navLinks" role="list">
+    <li><a href="#about">About</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="#contact" class="btn btn-dark" style="padding:.55rem 1.2rem;font-size:.75rem;">Hire Me</a>
+  </div>
+  <button id="burger" aria-label="Toggle menu" aria-expanded="false" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══════════════════════ HERO ══════════════════════ -->
+<section id="hero" aria-label="Introduction">
+  <div class="hero-wm" id="wm" aria-hidden="true">FULL<br>STACK</div>
+
+  <div class="hero-left">
+    <div class="reveal"><span class="tag">Full Stack Developer</span></div>
+    <h1 class="reveal d1">
+      Building<br>
+      <span class="it">Digital</span><br>
+      Products
+    </h1>
+    <p class="hero-desc reveal d2">
+      A <strong>full stack web developer</strong> crafting clean, performant
+      applications from database to UI. Skilled in modern JavaScript
+      ecosystems — <strong>React, Node.js, and MongoDB</strong>.
+    </p>
+    <div class="hero-actions reveal d3">
+      <a href="#projects" class="btn btn-dark">View Projects →</a>
+      <a href="#contact"  class="btn btn-ghost">Contact Me</a>
+      <a href="#resume"   class="btn btn-ghost">Resume ↓</a>
+    </div>
+    <div class="hero-stats reveal d4" aria-label="Key stats">
+      <div class="stat">
+        <div class="stat-n">5<em>+</em></div>
+        <div class="stat-l">Projects</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">10<em>+</em></div>
+        <div class="stat-l">Technologies</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">1<em>yr</em></div>
+        <div class="stat-l">Learning</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-right reveal d2">
+    <div class="hcard">
+      <div class="hcard-label">Status</div>
+      <div class="hcard-val"><span class="live-dot"></span>Open to Opportunities</div>
+      <div class="hcard-sub">Internships · Freelance · Full-time</div>
+    </div>
+    <div class="hcards-row">
+      <div class="hcard hcard-big">
+        <div class="hcard-label">Stack</div>
+        <div class="hcard-val">MERN<em>.</em></div>
+        <div class="hcard-sub">Full stack</div>
+      </div>
+      <div class="hcard hcard-big">
+        <div class="hcard-label">Base</div>
+        <div class="hcard-val">IN<em>🇮🇳</em></div>
+        <div class="hcard-sub">Remote-ready</div>
+      </div>
+    </div>
+    <div class="hcard">
+      <div class="hcard-label">Currently Working On</div>
+      <div class="hcard-val">Portfolio · CRM · Business Site</div>
+      <div class="hcard-sub">Future Interns Full Stack Program</div>
+    </div>
+    <div class="hcard">
+      <div class="hcard-label">Interests</div>
+      <div class="hcard-val">Web Apps · APIs · UI/UX · Open Source</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ ABOUT ══════════════════════ -->
+<section id="about" aria-label="About">
+  <div>
+    <span class="tag reveal">About</span>
+    <h2 class="reveal d1">Crafting the<br><em>full picture</em></h2>
+    <div class="about-text reveal d2">
+      <p>I'm a <strong>full stack web developer</strong> who loves turning complex problems into elegant, simple web applications. From designing intuitive interfaces to architecting efficient APIs and databases, I work across the entire stack.</p>
+      <p>My philosophy: <strong>write code that humans can read</strong>, build systems that scale, and never ship without testing. I care deeply about performance, accessibility, and clean architecture.</p>
+      <p>Currently completing a <strong>Full Stack Web Development Internship</strong>, building three production-level projects spanning portfolio development, CRM systems, and real-world client websites.</p>
+    </div>
+    <div class="chips reveal d3" role="list" aria-label="Technologies">
+      <span class="chip">React.js</span><span class="chip">Next.js</span>
+      <span class="chip">Node.js</span><span class="chip">Express.js</span>
+      <span class="chip">MongoDB</span><span class="chip">MySQL</span>
+      <span class="chip">JavaScript ES6+</span><span class="chip">HTML5</span>
+      <span class="chip">CSS3</span><span class="chip">REST APIs</span>
+      <span class="chip">Git & GitHub</span><span class="chip">VS Code</span>
+      <span class="chip">Postman</span><span class="chip">Figma</span>
+    </div>
+  </div>
+
+  <div>
+    <div class="timeline reveal d2">
+      <div class="tl">
+        <div class="tl-yr">Now</div>
+        <div>
+          <div class="tl-ttl">Full Stack Web Dev Intern</div>
+          <div class="tl-sub">Future Interns · Building portfolio, CRM system &amp; local business website. Deadline: March 28, 2026.</div>
+        </div>
+      </div>
+      <div class="tl">
+        <div class="tl-yr">2025</div>
+        <div>
+          <div class="tl-ttl">Advanced Frontend &amp; Backend</div>
+          <div class="tl-sub">Mastered React hooks, state management, Node/Express REST APIs, JWT authentication, and MongoDB aggregation pipelines.</div>
+        </div>
+      </div>
+      <div class="tl">
+        <div class="tl-yr">2024</div>
+        <div>
+          <div class="tl-ttl">Web Development Foundations</div>
+          <div class="tl-sub">Built strong fundamentals in HTML5, CSS3, vanilla JavaScript, responsive design, and Git version control.</div>
+        </div>
+      </div>
+      <div class="tl">
+        <div class="tl-yr">2023</div>
+        <div>
+          <div class="tl-ttl">Started Coding Journey</div>
+          <div class="tl-sub">Discovered a passion for building things on the web. Completed first projects and fell in love with problem solving through code.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ RESUME ══════════════════════ -->
+<section id="resume" aria-label="Resume">
+  <div class="section-head">
+    <div>
+      <span class="tag reveal">Resume</span>
+      <h2 class="reveal d1">Experience &amp;<br>Education</h2>
+    </div>
+    <a href="#" class="btn btn-ghost reveal d2" aria-label="Download PDF resume">Download PDF ↓</a>
+  </div>
+
+  <div class="resume-grid">
+    <!-- Experience -->
+    <div class="reveal">
+      <div class="rcol-title">Experience</div>
+
+      <div class="ritem">
+        <div class="ritem-top">
+          <div class="ritem-title">Full Stack Web Dev Intern</div>
+          <div class="ritem-date">Feb – Mar 2026</div>
+        </div>
+        <div class="ritem-org">Future Interns · Remote</div>
+        <div class="ritem-desc">Building three production-level projects: a personal portfolio website, a Client Lead Management System (mini CRM), and a local business website with live pitch. Working independently across the full stack.</div>
+        <div class="ritem-tags">
+          <span class="ritem-tag">React</span>
+          <span class="ritem-tag">Node.js</span>
+          <span class="ritem-tag">MongoDB</span>
+          <span class="ritem-tag">Express</span>
+        </div>
+      </div>
+
+      <div class="ritem">
+        <div class="ritem-top">
+          <div class="ritem-title">Freelance Web Developer</div>
+          <div class="ritem-date">2024 – Present</div>
+        </div>
+        <div class="ritem-org">Self-employed · Remote</div>
+        <div class="ritem-desc">Designed and built responsive websites for small businesses and individuals. Delivered projects from wireframe to deployment including SEO optimisation and ongoing maintenance.</div>
+        <div class="ritem-tags">
+          <span class="ritem-tag">HTML/CSS</span>
+          <span class="ritem-tag">JavaScript</span>
+          <span class="ritem-tag">WordPress</span>
+        </div>
+      </div>
+
+      <div class="ritem">
+        <div class="ritem-top">
+          <div class="ritem-title">Open Source Contributor</div>
+          <div class="ritem-date">2024</div>
+        </div>
+        <div class="ritem-org">GitHub · Various Projects</div>
+        <div class="ritem-desc">Contributed bug fixes, documentation improvements, and small feature additions to open source JavaScript projects. Raised and reviewed pull requests following standard Git workflows.</div>
+        <div class="ritem-tags">
+          <span class="ritem-tag">Git</span>
+          <span class="ritem-tag">JavaScript</span>
+          <span class="ritem-tag">Markdown</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education + Certifications -->
+    <div class="reveal d1">
+      <div class="rcol-title">Education</div>
+
+      <div class="ritem">
+        <div class="ritem-top">
+          <div class="ritem-title">B.Tech / B.E. in Computer Science</div>
+          <div class="ritem-date">2022 – 2026</div>
+        </div>
+        <div class="ritem-org">[Your University Name] · India</div>
+        <div class="ritem-desc">Core curriculum covering data structures, algorithms, databases, operating systems, and software engineering. Completed multiple web development projects as coursework and personal initiatives.</div>
+      </div>
+
+      <div class="ritem">
+        <div class="ritem-top">
+          <div class="ritem-title">Full Stack Web Dev Certification</div>
+          <div class="ritem-date">2025</div>
+        </div>
+        <div class="ritem-org">[Platform: Udemy / Coursera / freeCodeCamp]</div>
+        <div class="ritem-desc">Comprehensive course covering React, Node.js, Express, MongoDB, REST APIs, authentication with JWT, and deployment on cloud platforms.</div>
+        <div class="ritem-tags">
+          <span class="ritem-tag">MERN Stack</span>
+          <span class="ritem-tag">REST APIs</span>
+          <span class="ritem-tag">JWT Auth</span>
+        </div>
+      </div>
+
+      <div class="ritem">
+        <div class="ritem-top">
+          <div class="ritem-title">JavaScript Algorithms &amp; Data Structures</div>
+          <div class="ritem-date">2024</div>
+        </div>
+        <div class="ritem-org">freeCodeCamp · Online</div>
+        <div class="ritem-desc">300+ hours of JavaScript training covering ES6+, functional programming, OOP, and algorithmic problem solving. Earned developer certification upon completion.</div>
+        <div class="ritem-tags">
+          <span class="ritem-tag">JavaScript</span>
+          <span class="ritem-tag">Algorithms</span>
+          <span class="ritem-tag">ES6+</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ SKILLS ══════════════════════ -->
+<section id="skills" aria-label="Technical skills">
+  <div class="skills-intro">
+    <span class="tag reveal">Skills</span>
+    <h2 class="reveal d1">What I<br>Work With</h2>
+    <p class="reveal d2">A growing toolkit across the full stack. I pick the right tool for the job and learn fast when projects demand something new.</p>
+
+    <div class="radial-row reveal d3" aria-hidden="true">
+      <div class="radial">
+        <svg width="52" height="52" viewBox="0 0 36 36">
+          <circle cx="18" cy="18" r="15.9"/>
+          <circle class="arc" cx="18" cy="18" r="15.9" style="--pct:88" stroke-dasharray="0 100" pathLength="100"/>
+        </svg>
+        <span>Frontend</span>
+      </div>
+      <div class="radial">
+        <svg width="52" height="52" viewBox="0 0 36 36">
+          <circle cx="18" cy="18" r="15.9"/>
+          <circle class="arc" cx="18" cy="18" r="15.9" style="--pct:72" stroke-dasharray="0 100" pathLength="100"/>
+        </svg>
+        <span>Backend</span>
+      </div>
+      <div class="radial">
+        <svg width="52" height="52" viewBox="0 0 36 36">
+          <circle cx="18" cy="18" r="15.9"/>
+          <circle class="arc" cx="18" cy="18" r="15.9" style="--pct:68" stroke-dasharray="0 100" pathLength="100"/>
+        </svg>
+        <span>Database</span>
+      </div>
+      <div class="radial">
+        <svg width="52" height="52" viewBox="0 0 36 36">
+          <circle cx="18" cy="18" r="15.9"/>
+          <circle class="arc" cx="18" cy="18" r="15.9" style="--pct:82" stroke-dasharray="0 100" pathLength="100"/>
+        </svg>
+        <span>DevTools</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-body reveal d1">
+    <!-- Frontend -->
+    <div>
+      <div class="sg-title">Frontend</div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">HTML5 &amp; CSS3</span><span class="sb-p">92%</span></div><div class="sb-track"><div class="sb-fill" style="width:92%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">JavaScript ES6+</span><span class="sb-p">83%</span></div><div class="sb-track"><div class="sb-fill" style="width:83%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">React.js</span><span class="sb-p">78%</span></div><div class="sb-track"><div class="sb-fill" style="width:78%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">Responsive Design</span><span class="sb-p">90%</span></div><div class="sb-track"><div class="sb-fill" style="width:90%"></div></div></div>
+    </div>
+
+    <!-- Backend -->
+    <div>
+      <div class="sg-title">Backend</div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">Node.js</span><span class="sb-p">72%</span></div><div class="sb-track"><div class="sb-fill" style="width:72%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">Express.js</span><span class="sb-p">70%</span></div><div class="sb-track"><div class="sb-fill" style="width:70%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">REST API Design</span><span class="sb-p">75%</span></div><div class="sb-track"><div class="sb-fill" style="width:75%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">JWT Auth</span><span class="sb-p">65%</span></div><div class="sb-track"><div class="sb-fill" style="width:65%"></div></div></div>
+    </div>
+
+    <!-- Database -->
+    <div>
+      <div class="sg-title">Database</div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">MongoDB</span><span class="sb-p">70%</span></div><div class="sb-track"><div class="sb-fill" style="width:70%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">MySQL</span><span class="sb-p">66%</span></div><div class="sb-track"><div class="sb-fill" style="width:66%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">Mongoose ODM</span><span class="sb-p">68%</span></div><div class="sb-track"><div class="sb-fill" style="width:68%"></div></div></div>
+    </div>
+
+    <!-- Tools -->
+    <div>
+      <div class="sg-title">Tools &amp; Workflow</div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">Git &amp; GitHub</span><span class="sb-p">86%</span></div><div class="sb-track"><div class="sb-fill" style="width:86%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">VS Code</span><span class="sb-p">92%</span></div><div class="sb-track"><div class="sb-fill" style="width:92%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">Postman</span><span class="sb-p">74%</span></div><div class="sb-track"><div class="sb-fill" style="width:74%"></div></div></div>
+      <div class="sb"><div class="sb-head"><span class="sb-n">Figma (basics)</span><span class="sb-p">58%</span></div><div class="sb-track"><div class="sb-fill" style="width:58%"></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ PROJECTS ══════════════════════ -->
+<section id="projects" aria-label="Projects">
+  <div class="section-head">
+    <div>
+      <span class="tag reveal">Work</span>
+      <h2 class="reveal d1">Selected Projects</h2>
+    </div>
+    <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="btn btn-ghost reveal d2">All on GitHub ↗</a>
+  </div>
+
+  <div class="proj-grid">
+
+    <!-- Featured -->
+    <article class="pcard pcard-featured reveal" tabindex="0">
+      <div>
+        <div class="pcard-num">00 — Featured</div>
+        <div class="pcard-title" style="font-size:1.4rem;">Full Stack Portfolio Website</div>
+        <div class="pcard-desc">This very site — a fully responsive, SEO-optimised personal portfolio built with pure HTML, CSS, and JavaScript. Features scroll animations, skill bars, animated hero watermark, a working contact form, and mobile-first design. No frameworks — just clean, semantic, accessible code.</div>
+        <div class="pcard-stack">
+          <span class="pcard-tag">HTML5</span><span class="pcard-tag">CSS3</span>
+          <span class="pcard-tag">JavaScript</span><span class="pcard-tag">SEO</span>
+          <span class="pcard-tag">Accessibility</span><span class="pcard-tag">GitHub Pages</span>
+        </div>
+        <div class="pcard-links">
+          <a href="#" class="pcard-link" target="_blank" rel="noopener">Live Site ↗</a>
+          <a href="https://github.com/yourusername/FUTURE_FS_01" class="pcard-link" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;justify-content:space-between;">
+        <div style="background:var(--cream);border:1px solid var(--border);padding:1.5rem;height:100%;display:flex;align-items:center;justify-content:center;">
+          <div style="font-family:var(--fh);font-size:5rem;font-weight:800;color:transparent;-webkit-text-stroke:2px var(--border);letter-spacing:-.05em;line-height:1;text-align:center;">PORT<br>FOLIO</div>
+        </div>
+      </div>
+      <div class="pcard-arrow">↗</div>
+    </article>
+
+    <!-- Project 1 -->
+    <article class="pcard reveal" tabindex="0">
+      <div class="pcard-num">01 — CRM</div>
+      <div class="pcard-title">Client Lead Management System</div>
+      <div class="pcard-desc">A mini CRM for tracking leads from web forms. Supports New → Contacted → Converted status workflow, notes, follow-ups, and secure admin login with JWT. Full CRUD operations with a React frontend and Express/MongoDB backend.</div>
+      <div class="pcard-stack">
+        <span class="pcard-tag">React</span><span class="pcard-tag">Node.js</span>
+        <span class="pcard-tag">Express</span><span class="pcard-tag">MongoDB</span>
+        <span class="pcard-tag">JWT</span>
+      </div>
+      <div class="pcard-links">
+        <a href="#" class="pcard-link" target="_blank" rel="noopener">Demo ↗</a>
+        <a href="https://github.com/yourusername/FUTURE_FS_02" class="pcard-link" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+      <div class="pcard-arrow">↗</div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="pcard reveal d1" tabindex="0">
+      <div class="pcard-num">02 — Business</div>
+      <div class="pcard-title">Local Business Website</div>
+      <div class="pcard-desc">A professional, conversion-focused website built for a real local business and pitched live to the owner. Mobile-first, fast-loading, with service showcase, testimonials, Google Maps embed, and contact form.</div>
+      <div class="pcard-stack">
+        <span class="pcard-tag">HTML5</span><span class="pcard-tag">CSS3</span>
+        <span class="pcard-tag">JavaScript</span><span class="pcard-tag">Responsive</span>
+      </div>
+      <div class="pcard-links">
+        <a href="#" class="pcard-link" target="_blank" rel="noopener">Live Site ↗</a>
+        <a href="https://github.com/yourusername/FUTURE_FS_03" class="pcard-link" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+      <div class="pcard-arrow">↗</div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="pcard reveal d2" tabindex="0">
+      <div class="pcard-num">03 — API</div>
+      <div class="pcard-title">RESTful Task Manager API</div>
+      <div class="pcard-desc">A fully documented REST API for task management. Includes user registration, login with JWT, task CRUD, filtering by status and priority, and pagination. Deployed on Render. Tested with Postman.</div>
+      <div class="pcard-stack">
+        <span class="pcard-tag">Node.js</span><span class="pcard-tag">Express</span>
+        <span class="pcard-tag">MongoDB</span><span class="pcard-tag">JWT</span>
+        <span class="pcard-tag">Postman</span>
+      </div>
+      <div class="pcard-links">
+        <a href="#" class="pcard-link" target="_blank" rel="noopener">API Docs ↗</a>
+        <a href="#" class="pcard-link" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+      <div class="pcard-arrow">↗</div>
+    </article>
+
+    <!-- Project 4 -->
+    <article class="pcard reveal d3" tabindex="0">
+      <div class="pcard-num">04 — Frontend</div>
+      <div class="pcard-title">Weather Dashboard App</div>
+      <div class="pcard-desc">A React weather app consuming the OpenWeatherMap API. Features live search, 5-day forecast, temperature unit toggle, and a clean, data-driven UI with loading states and error handling.</div>
+      <div class="pcard-stack">
+        <span class="pcard-tag">React</span><span class="pcard-tag">REST API</span>
+        <span class="pcard-tag">CSS Modules</span><span class="pcard-tag">Hooks</span>
+      </div>
+      <div class="pcard-links">
+        <a href="#" class="pcard-link" target="_blank" rel="noopener">Demo ↗</a>
+        <a href="#" class="pcard-link" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+      <div class="pcard-arrow">↗</div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ══════════════════════ CONTACT ══════════════════════ -->
+<section id="contact" aria-label="Contact">
+  <div>
+    <span class="tag reveal">Contact</span>
+    <h2 class="reveal d1">Let's Build<br><em>Something</em></h2>
+    <p class="contact-intro reveal d2">
+      Open to internship roles, freelance projects, and collaborations.
+      If you have an idea, an opportunity, or just want to connect — drop me a message.
+    </p>
+
+    <div class="contact-items reveal d3">
+      <div class="ci">
+        <div class="ci-icon" aria-hidden="true">✉</div>
+        <div>
+          <div class="ci-lbl">Email</div>
+          <div class="ci-val"><a href="mailto:yourname@email.com">yourname@email.com</a></div>
+        </div>
+      </div>
+      <div class="ci">
+        <div class="ci-icon" aria-hidden="true">📍</div>
+        <div>
+          <div class="ci-lbl">Location</div>
+          <div class="ci-val">India · Remote Available</div>
+        </div>
+      </div>
+      <div class="ci">
+        <div class="ci-icon" aria-hidden="true">💼</div>
+        <div>
+          <div class="ci-lbl">Current Role</div>
+          <div class="ci-val">Full Stack Intern · Future Interns</div>
+        </div>
+      </div>
+      <div class="ci">
+        <div class="ci-icon" aria-hidden="true">⏱</div>
+        <div>
+          <div class="ci-lbl">Response Time</div>
+          <div class="ci-val">Within 24 hours</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="socials reveal d4" aria-label="Social links">
+      <a href="https://github.com/yourusername"     target="_blank" rel="noopener" class="soc" title="GitHub" aria-label="GitHub">GH</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="soc" title="LinkedIn" aria-label="LinkedIn">LI</a>
+      <a href="https://twitter.com/yourhandle"      target="_blank" rel="noopener" class="soc" title="Twitter" aria-label="Twitter">TW</a>
+      <a href="mailto:yourname@email.com" class="soc" title="Email" aria-label="Send email">@</a>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="reveal d2">
+    <form class="cform" id="contactForm" novalidate aria-label="Send a message">
+      <div class="frow">
+        <div class="fg">
+          <label for="cf-name">Full Name <span style="color:var(--accent)">*</span></label>
+          <input type="text" id="cf-name" name="name" placeholder="Jane Smith" required autocomplete="name" />
+        </div>
+        <div class="fg">
+          <label for="cf-email">Email Address <span style="color:var(--accent)">*</span></label>
+          <input type="email" id="cf-email" name="email" placeholder="jane@company.com" required autocomplete="email" />
+        </div>
+      </div>
+      <div class="frow">
+        <div class="fg">
+          <label for="cf-phone">Phone (optional)</label>
+          <input type="tel" id="cf-phone" name="phone" placeholder="+91 99999 00000" autocomplete="tel" />
+        </div>
+        <div class="fg">
+          <label for="cf-type">Enquiry Type <span style="color:var(--accent)">*</span></label>
+          <select id="cf-type" name="type" required>
+            <option value="" disabled selected>Select one…</option>
+            <option value="internship">Internship Opportunity</option>
+            <option value="freelance">Freelance Project</option>
+            <option value="fulltime">Full-time Role</option>
+            <option value="collab">Collaboration</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="fg">
+        <label for="cf-subject">Subject <span style="color:var(--accent)">*</span></label>
+        <input type="text" id="cf-subject" name="subject" placeholder="What's this about?" required />
+      </div>
+      <div class="fg">
+        <label for="cf-msg">Message <span style="color:var(--accent)">*</span></label>
+        <textarea id="cf-msg" name="message" placeholder="Tell me about your project, timeline, and what you're looking for…" required></textarea>
+      </div>
+      <div class="fmsg" id="fmsg" role="alert" aria-live="polite"></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.75rem;">
+        <button type="submit" class="btn btn-red" id="fsubmit">Send Message →</button>
+        <span class="form-note">* Required fields. I reply within 24 hours.</span>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ══════════════════════ FOOTER ══════t with care — no frameworks harmed.</span>
+  <div class="footer-links">
+    <a href="#hero">Top ↑</a>
+    <a href="https://github.com/yourusername/FUTURE_FS_01" target="_blank" rel="noopener">Source Code</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<!-- Back to top button -->
+<button id="btt" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+ 
+<script src="script.js"></script>
+
+</body>
+</html>
