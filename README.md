@@ -5,6 +5,9 @@ Task 1 - Personal Portfolio Website | Future Interns Full Stack Internship
 A modern, responsive **Full Stack Developer Portfolio** built with **HTML, CSS, and JavaScript**.
 This project showcases my skills, projects, experience, and contact information in a clean and interactive interface.
 
+*LIVE DEMO
+https://padmavathipachitala.github.io/-FUTURE_FS_01-/
+
 The website is fully responsive, SEO-optimized, and designed with smooth animations and modern UI principles.
 
 # Features
